@@ -1,9 +1,12 @@
 import styled from '@emotion/styled';
 import { HiPhone, HiUser } from 'react-icons/hi';
 
+export const NameDiv = styled.div`
+margin-right: 20px;
+`
+
 export const ContainerLi = styled.li`
   display: flex;
-  min-width: 250px;
   padding: 8px 8px;
   border: 1px solid;
   border-radius: 8px;
